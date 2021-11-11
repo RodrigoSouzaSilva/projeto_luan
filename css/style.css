@@ -1,0 +1,258 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: sans-serif;
+}
+
+.container{
+    padding: 0 30px;
+}
+
+.navegacao{
+    height: 10vh;
+    width: 100vw;
+    padding: 0 50px;
+    position: fixed;
+    background-color: rgba(145, 153, 13,1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: 0.5s;
+}
+
+.navegacao .logo{
+    height: 10vh;
+    display: flex;
+    align-items: center;
+}
+
+.navegacao .logo img{
+    height: 80%;
+    width: 100%;
+}
+
+.navegacao ul li{
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.navegacao ul li:hover a{
+    border-bottom: 1px solid #fff;
+    color: #fff;
+}
+
+.navegacao ul li a{
+    display: block;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 10px;
+    color: green;
+    transition: 0.3s;
+}
+
+
+/* Header */
+.header{
+    background-image: url(../img/5eda443d9eacc.shutterstock285334562.2.small.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header p{
+    font-family: 'Courgette', cursive;
+    font-size: 2em;
+    width: 70vw;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    margin-top: 300px;
+    line-height: 30px;
+}
+
+.header .aspa{
+    color: rgb(7, 1, 1);
+    font-size: 2em;
+}
+
+.header .aspa2{
+    position: relative;
+    top: 20px;
+}
+
+/* SOBRE */
+.sobre{
+    background-color: rgb(240, 239, 239);
+}
+
+.box-sobre{
+    display: flex;
+    margin: 0 5vw;
+}
+
+.sobre-img{
+    width: 40vw;
+    min-width: 250px;
+    margin-right: 4vw;
+}
+
+.sobre-img img{
+    margin-top: 50px;
+    width: 100%;
+    height: 80vh;
+    border-radius: 15px;
+}
+
+.sobre-texto{
+    width: 40vw;
+}
+
+.sobre-texto p{
+    font-size: 1.3em;
+    margin-bottom: 15px;
+}
+
+/* SERVIÇOS */
+.servicos{
+    background-color: rgb(224, 224, 224);
+}
+
+.box-servicos{
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-between;
+    margin: 0 5vw;
+    text-align: center;
+}
+
+.box-servicos div{
+    width: 40vw;
+    padding: 0 10px;
+}
+
+.box-servicos i{
+    font-size: 4em;
+    color: green;
+    margin-bottom: 15px;
+}
+
+/* Contatos */
+.contato{
+background-color: slategrey;
+}
+
+.contato .titulo-icone{
+    display: flex;
+    justify-content: center;
+}
+
+.titulo-icone a{
+    color: green;
+}
+
+.titulo-icone i{
+    font-size: 4em;
+    margin-right: 15px;
+    margin-bottom: 50px;
+}
+
+.contato-box{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.contato-area-texto div{
+    display: flex;
+    align-items: center;
+}
+
+.contato-area-texto div i{
+    font-size: 50px;
+    margin-right: 10px;
+    color: #007421;
+}
+
+
+.contato-svg{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+}
+
+.contato-svg img.solo{      /* imagem LR */
+    position: absolute;
+    top: 0;
+    left: 30px;
+}
+
+.contato-svg img.nome{      /* imagem completa */
+    width: 350px;
+}
+
+
+
+/* FOOTER */
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Configurações gerais */
+.sobre, .servicos, .contato{
+    padding: 100px 0;
+}
+
+span.titulo{
+    display: block;
+    text-align: center;
+    font-size: 4em;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+}
+
+.titulo-p{
+    font-weight: bold;
+    font-size: 1.3em;
+    margin-bottom: 15px;
+}
+
+.textp-p{
+    font-weight: normal;
+    font-size: 1em;
+    margin-bottom: 15px;
+}
+
+.transparencia{
+    background-color: rgba(145, 153, 13,0);
+    transition: 0.5s;
+}
+
+
+@keyframes opacidade {
+    0% {
+        opacity: 0;
+    }
+
+    25% {
+        opacity: 0.25;
+    }
+
+    75% {
+        opacity: 0.75;
+    }
+
+    100%{
+        opacity: 1;
+    }
+}
+
