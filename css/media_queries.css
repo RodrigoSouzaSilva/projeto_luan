@@ -1,7 +1,6 @@
 @media (max-width:320px){
     .header p{
         font-size: 1em;
-        
     }
 
     span.titulo{
@@ -16,7 +15,7 @@
 
     .sobre-img img{
         margin-top: 0px;
-        height: 60vh;
+        height: 50vh;
     }
 
     .sobre-texto{
@@ -79,7 +78,7 @@
 
     .sobre-img img{
         margin-top: 0px;
-        height: 60vh;
+        height: 50vh;
     }
 
     .sobre-texto{
@@ -131,8 +130,6 @@
         font-size: 1.2em;
     }
 
-    
-
     span.titulo{
         font-size: 4em;
     }
@@ -145,7 +142,7 @@
 
     .sobre-img img{
         margin-top: 0px;
-        height: 60vh;
+        height: 50vh;
     }
 
     .sobre-texto{
