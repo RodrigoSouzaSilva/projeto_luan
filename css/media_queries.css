@@ -1,6 +1,7 @@
 @media (max-width:320px){
     .header p{
         font-size: 1em;
+        
     }
 
     span.titulo{
@@ -127,8 +128,10 @@
 
 @media (min-width: 481px) and (max-width:768px){
     .header p{
-        font-size: 2em;
+        font-size: 1.2em;
     }
+
+    
 
     span.titulo{
         font-size: 4em;
