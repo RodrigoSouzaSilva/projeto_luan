@@ -35,6 +35,15 @@ body{
     width: 100%;
 }
 
+.navegacao .btn-menu{
+    display: none;
+    padding: 10px;
+    font-size: 1.5em;
+    border: none;
+}
+
+
+
 .navegacao ul li{
     display: inline-block;
     margin-left: 10px;
@@ -256,3 +265,21 @@ span.titulo{
     }
 }
 
+
+@media (max-width: 590px) {
+    .navegacao .btn-menu{
+        display: block;
+    }
+
+    .menu{
+        display: none;
+    }
+
+    ul.ativado{
+        position: absolute;
+        top: 10vh;
+        right: 30px;
+        display: flex;
+        flex-direction: column;
+    }
+}

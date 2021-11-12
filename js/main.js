@@ -56,3 +56,11 @@ function verificaAltura(){
 }
 
 window.addEventListener('scroll', verificaAltura)
+
+
+// evento do click
+document.addEventListener('click', abreMenu)
+function abreMenu(){
+    const menu = document.querySelector('.menu')
+    menu.classList.toggle('ativado')
+}
