@@ -1,0 +1,189 @@
+@media (max-width:320px){
+    .header p{
+        font-size: 1.2em;
+        margin-top: 250px;
+    }
+
+    span.titulo{
+        font-size: 2em;
+    }
+
+    .box-sobre{
+        flex-direction: column;
+        align-items: center;
+        width: 90vw;
+    }
+
+    .sobre-img img{
+        margin-top: 0px;
+    }
+
+    .sobre-texto{
+        width: 90vw;
+        text-align: center;
+    }
+
+    .box-servicos{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .box-servicos div{
+        width: 90vw;
+        margin-bottom: 30px;
+    }
+
+    .contato-box{
+        flex-direction: column;
+    }
+
+    .contato-svg{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        position: relative;
+        width: 200px;
+    }
+
+    .contato-area-texto{
+        margin-bottom: 50px;
+    }
+    
+    .contato-svg img.solo{      /* imagem LR */
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        width: 200px;
+    }
+    
+    .contato-svg img.nome{      /* imagem completa */
+        width: 250px;
+    }
+}
+
+@media (min-width: 321px) and (max-width:480px){
+    .header p{
+        font-size: 1.2em;
+        margin-top: 250px;
+    }
+
+    span.titulo{
+        font-size: 2em;
+    }
+
+    .box-sobre{
+        flex-direction: column;
+        align-items: center;
+        width: 90vw;
+    }
+
+    .sobre-img img{
+        margin-top: 0px;
+    }
+
+    .sobre-texto{
+        width: 90vw;
+        text-align: center;
+    }
+
+    .box-servicos{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .box-servicos div{
+        width: 90vw;
+        margin-bottom: 30px;
+    }
+
+    .contato-box{
+        flex-direction: column;
+    }
+
+    .contato-svg{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        position: relative;
+        width: 200px;
+    }
+
+    .contato-area-texto{
+        margin-bottom: 50px;
+    }
+    
+    .contato-svg img.solo{      /* imagem LR */
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        width: 200px;
+    }
+    
+    .contato-svg img.nome{      /* imagem completa */
+        width: 250px;
+    }
+}
+
+
+@media (min-width: 481px) and (max-width:768px){
+    .header p{
+        font-size: 2em;
+        margin-top: 250px;
+    }
+
+    span.titulo{
+        font-size: 4em;
+    }
+
+    .box-sobre{
+        flex-direction: column;
+        align-items: center;
+        width: 90vw;
+    }
+
+    .sobre-img img{
+        margin-top: 0px;
+    }
+
+    .sobre-texto{
+        width: 90vw;
+        text-align: center;
+    }
+
+    .box-servicos{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .box-servicos div{
+        width: 90vw;
+        margin-bottom: 30px;
+    }
+
+    .contato-box{
+        flex-direction: row;
+    }
+
+    .contato-svg{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        position: relative;
+        width: 200px;
+    }
+
+    .contato-area-texto{
+        margin-bottom: 50px;
+    }
+    
+    .contato-svg img.solo{      /* imagem LR */
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        width: 200px;
+    }
+    
+    .contato-svg img.nome{      /* imagem completa */
+        width: 250px;
+    }
+}

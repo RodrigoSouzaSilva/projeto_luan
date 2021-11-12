@@ -60,7 +60,14 @@ window.addEventListener('scroll', verificaAltura)
 
 // evento do click
 document.addEventListener('click', abreMenu)
-function abreMenu(){
+function abreMenu(e){
     const menu = document.querySelector('.menu')
-    menu.classList.toggle('ativado')
+    const btnmenu = document.querySelector('.i-btn')
+    const el = e.target
+
+    if(el === btnmenu) {
+        menu.classList.add('ativado')
+    } else {
+        menu.classList.remove('ativado')
+    }
 }
